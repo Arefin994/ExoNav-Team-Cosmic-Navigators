@@ -55,6 +55,10 @@ npm start
 
 ## External Game and VR links
 https://clover-quest-studios.itch.io/exonav-vr-planet-1
+
 https://clover-quest-studios.itch.io/exonav-vr-planet-2
+
 https://clover-quest-studios.itch.io/exonav-vr-planet-3
+
 https://clover-quest-studios.itch.io/exonav-game
+
