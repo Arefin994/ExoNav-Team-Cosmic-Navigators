@@ -1,0 +1,135 @@
+.rootLayout {
+    padding: 16px 64px;
+    min-height: 100vh;
+    flex: 1;
+    /* min-height: 100vh; */
+    /* padding-bottom: 15vh; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #370137; */
+  }
+  
+  .nav {
+    /* border: 1px solid #370137; */
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 10px;
+  }
+  
+  .nav img {
+    /* border: 1px solid #370137; */
+  
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+  }
+  .logo a:hover {
+    padding: 0px;
+    border-radius: 50%;
+  }
+  
+  .logo .fullLogo {
+    /* border: 1px solid #370137; */
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  }
+  
+  .logo .fullLogo a {
+    padding: 0px;
+  }
+  
+  .logo p {
+    color: #370137;
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  
+  /* Container for the dropdown */
+  .navLinks .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown menu */
+  .navLinks .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    top: 35px;
+    border-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Dropdown items */
+  .navLinks .dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navLinks .dropdownContent a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show dropdown content on hover */
+  .navLinks .dropdown:hover .dropdownContent {
+    display: block;
+  }
+  
+  
+  .navLinks .isActive {
+    color: #888;
+    padding: 10px 15px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+  }
+  
+  .navLinks .isActive:hover {
+    border-bottom: 2px solid #370137;
+    color: #370137;
+    background-color: none;
+  }
+  
+  .activeLink {
+    color: #370137;
+    border-bottom: 2px solid #370137;
+  }
+  
+  
+  
+  .userButton {
+    width: 20px;
+    height: 20px;
+  }
+  
+  main {
+    /* border: 1px solid #370137; */
+  
+    /* background-color: #370137; */
+    flex: 1;
+    overflow: hidden;
+  }
