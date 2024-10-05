@@ -1,0 +1,68 @@
+.chatList {
+    display: flex;
+    flex-direction: column;
+    height: 80vh; /* Make the chatList take the full height of the viewport */
+}
+  
+  hr {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    opacity: 0.6;
+    border-radius: 5px;
+    margin: 20px 0px;
+  }
+  
+  .title {
+    font-weight: 600;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll; /* Use overflow-y to scroll vertically */
+  }
+  
+  a {
+    padding: 10px;
+    border-radius: 10px;
+    color: #370137;
+    text-decoration: none; /* Ensure no underline */
+  }
+  
+  a:hover {
+    background-color: #370137;
+    color: #fff;
+  }
+  
+  .upgrade {
+    margin-top: auto;
+    margin-bottom: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .upgrade img {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .upgrade .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .upgrade .texts h6:first-child {
+    font-weight: 600;
+    margin-bottom: 2px; /* Reduced space between title and subtitle */
+  }
+  
+  .upgrade .texts h6:last-child {
+    color: #888;
+    font-size: 11px;
+  }

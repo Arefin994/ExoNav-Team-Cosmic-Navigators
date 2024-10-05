@@ -1,0 +1,53 @@
+.exoplanet-details{
+    width: 100%;
+    
+}
+.details{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.backBtn {
+    width: 80px;
+    text-align: center;
+    margin: 15px;
+    padding: 10px 15px;
+    background-color: #510251; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .backBtn:hover {
+    background-color: #fff;
+    border: 2px solid #510251;
+    color: #510251; 
+    margin: 11px;
+  }
+
+.exploreLeft{
+    width: 50%;
+}
+
+.exploreRight{
+    border: 2px solid #ccc;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.exploreRight h1{
+    color: #510251;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.exploreRight p{
+    /* border: 1px solid red; */
+
+    /* text-align: center; */
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
